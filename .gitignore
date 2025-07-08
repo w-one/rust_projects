@@ -1,0 +1,26 @@
+# Rust関連
+/target/
+**/*.rs.bk
+*.pdb
+
+# Cargo関連
+Cargo.lock
+
+# macOS関連
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.vscode/
+.idea/          # IntelliJ IDEA / RustRover
+*.swp
+*.swo
+
+# RustRover特有のファイル
+.fleet/
+*.iml
+.run/
+
+# 一時ファイル
+*~

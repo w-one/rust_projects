@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "guessing_game",
+    "hello_cargo",
+    "hello_world",
+    "rectangles_example",
+    "variables",
+]
+
+# ワークスペース全体の設定（オプション）
+[workspace.package]
+edition = "2021"
+authors = ["Your Name <your.email@example.com>"]
+
+# 依存関係の一元管理（オプション）
+[workspace.dependencies]
+# 共通で使う依存関係があれば、ここに記述
