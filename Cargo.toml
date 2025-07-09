@@ -1,5 +1,6 @@
 [workspace]
-members = [ "chapter_06_enums",
+resolver = "3"
+members = [
     "guessing_game",
     "hello_cargo",
     "hello_world",
