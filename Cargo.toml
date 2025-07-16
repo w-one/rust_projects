@@ -1,10 +1,11 @@
 [workspace]
-members = [
+members = [ "chapter_12_minigrep",
     "guessing_game",
     "hello_cargo",
     "hello_world",
-    "rectangles_example",
+    "rectangles_example", "restaurant",
     "variables",
+    "chapter_12_minigrep",
 ]
 
 # ワークスペース全体の設定（オプション）
